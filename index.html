@@ -4,14 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Aurelian Crown Hair Patch Studio | Ajay Thakur & Bittu Thakur | Gurugram</title>
-  <meta name="description" content="Aurelian Crown Hair Patch Studio owned by Ajay Thakur & Bittu Thakur in Sector 3A, Laxman Vihar, Gurugram. 100% Non-Surgical Hair Replacement from ₹3,000 to ₹30,000 Ultra Exclusive. Call 9958467830 / 7827867830.">
-  <meta name="keywords" content="Aurelian Crown Hair Patch Studio, Ajay Thakur, Bittu Thakur, hair patch Gurgaon, hair replacement Laxman Vihar, Sector 3A Gurgaon, hair wigs, 9958467830, 7827867830">
+  <meta name="description" content="Aurelian Crown Hair Patch Studio by Ajay Thakur & Bittu Thakur in Sector 3A, Laxman Vihar, Gurugram. 100% Non-Surgical Natural Hair Systems from ₹3,000 to ₹30,000. Call 9958467830 / 7827867830.">
+  <meta name="keywords" content="Aurelian Crown Hair Patch Studio, Ajay Thakur, Bittu Thakur, hair patch Gurugram, hair replacement Laxman Vihar, Sector 3A Gurugram, hair wigs, 9958467830, 7827867830">
 
-  <!-- Favicon & Fonts -->
+  <!-- Favicon & Google Fonts -->
   <link rel="icon" type="image/png" href="assets/images/logo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
 
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -19,276 +19,179 @@
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="style.css">
 
-  <!-- Three.js CDN for 3D Animations -->
+  <!-- Three.js CDN for Subtle Ambient Visuals -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-  <!-- GSAP CDN for smooth animations -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 </head>
-<body>
+<body class="light-theme">
 
-  <!-- Top Announcement Bar -->
-  <div class="top-announcement">
-    <div class="container top-bar-content">
-      <div class="top-tag">
-        <span class="pulse-dot"></span>
-        <span class="gold-gradient-text font-bold">AURELIAN CROWN STUDIO • SECTOR 3A LAXMAN VIHAR</span>
-        <span class="hide-mobile">— Owned by Ajay Thakur & Bittu Thakur | Patches from <strong>₹3,000</strong> to <strong>₹30,000</strong></span>
+  <!-- Top Consultation Bar -->
+  <div class="top-announcement-bar">
+    <div class="container top-bar-flex">
+      <div class="announcement-left">
+        <span class="status-indicator"></span>
+        <span class="announcement-text">
+          <strong>Aurelian Crown Studio</strong> • Sector 3A, Laxman Vihar, Gurugram | Walk-ins & Consultations Open
+        </span>
       </div>
-      <div class="top-contact-pills">
-        <a href="tel:+919958467830" class="top-link"><i class="fa-solid fa-phone"></i> 99584 67830</a>
-        <span class="divider">|</span>
-        <a href="tel:+917827867830" class="top-link"><i class="fa-solid fa-phone"></i> 78278 67830</a>
-        <span class="divider">|</span>
-        <a href="https://wa.me/919958467830?text=Hi%20Ajay%20Thakur%20and%20Bittu%20Thakur,%20I%20am%20interested%20in%20a%20Hair%20Patch%20consultation%20at%20Aurelian%20Crown%20Studio." target="_blank" class="top-wa-btn">
-          <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+      <div class="announcement-right">
+        <a href="tel:+919958467830" class="top-call-link">
+          <i class="fa-solid fa-phone"></i> 99584 67830 (Ajay)
+        </a>
+        <span class="sep">•</span>
+        <a href="tel:+917827867830" class="top-call-link">
+          <i class="fa-solid fa-phone"></i> 78278 67830 (Bittu)
+        </a>
+        <span class="sep">•</span>
+        <a href="https://wa.me/919958467830?text=Hello%20Ajay%20Thakur%20and%20Bittu%20Thakur,%20I%20would%20like%20to%20book%20a%20Hair%20Patch%20consultation." target="_blank" class="top-wa-pill">
+          <i class="fa-brands fa-whatsapp"></i> WhatsApp Direct
         </a>
       </div>
     </div>
   </div>
 
-  <!-- Navigation Bar -->
-  <header class="site-header" id="header">
-    <div class="container header-container">
-      <a href="#" class="brand-logo">
-        <img src="assets/images/logo.png" alt="Aurelian Crown Hair Patch Studio Logo" class="logo-img">
-        <div class="brand-text">
-          <span class="brand-title">AURELIAN CROWN</span>
-          <span class="brand-subtitle">HAIR PATCH STUDIO • GURUGRAM</span>
+  <!-- Header & Navigation -->
+  <header class="main-header" id="header">
+    <div class="container header-inner">
+      <a href="#" class="brand-link">
+        <img src="assets/images/logo.png" alt="Aurelian Crown Studio" class="brand-logo-img">
+        <div class="brand-titles">
+          <span class="brand-main">AURELIAN CROWN</span>
+          <span class="brand-sub">HAIR PATCH STUDIO • GURUGRAM</span>
         </div>
       </a>
 
-      <nav class="nav-links" id="navLinks">
-        <a href="#about" class="nav-item">About Owners</a>
-        <a href="#benefits" class="nav-item">Why Hair Patch?</a>
-        <a href="#transformations" class="nav-item">Real Transformations</a>
-        <a href="#bases" class="nav-item">Patch Types</a>
-        <a href="#pricing" class="nav-item">Pricing (₹3K-₹30K)</a>
-        <a href="#studio-tour" class="nav-item">Studio Tour</a>
-        <a href="#location" class="nav-item">Location & Contact</a>
+      <nav class="nav-menu" id="navMenu">
+        <a href="#about" class="nav-link">About Founders</a>
+        <a href="#transformations" class="nav-link">Real Results</a>
+        <a href="#benefits" class="nav-link">Why Us?</a>
+        <a href="#pricing" class="nav-link">Pricing (₹3K – ₹30K)</a>
+        <a href="#instagram-feed" class="nav-link">Instagram Posts</a>
+        <a href="#studio-tour" class="nav-link">Studio Tour</a>
+        <a href="#contact" class="nav-link nav-btn-consult">Book Free Trial</a>
       </nav>
 
-      <div class="header-actions">
-        <a href="tel:+919958467830" class="phone-cta-btn" title="Call Ajay Thakur directly">
-          <i class="fa-solid fa-phone-volume"></i>
-          <span>99584 67830</span>
+      <div class="header-cta-block">
+        <a href="tel:+919958467830" class="header-call-btn">
+          <i class="fa-solid fa-phone"></i>
+          <span>Call 9958467830</span>
         </a>
-        <button class="mobile-toggle" id="mobileMenuBtn" aria-label="Toggle menu">
+        <button class="mobile-menu-toggle" id="menuToggle" aria-label="Toggle menu">
           <i class="fa-solid fa-bars"></i>
         </button>
       </div>
     </div>
   </header>
 
-  <!-- Hero Section with 3D Three.js Interactive Canvas -->
-  <section class="hero-section" id="hero">
-    <div id="three-hero-canvas" class="three-canvas-wrap"></div>
-    <div class="hero-glow-overlay"></div>
+  <!-- Modern Editorial Hero Section -->
+  <section class="hero-editorial" id="hero">
+    <!-- Subtle Ambient Canvas -->
+    <div id="ambient-canvas" class="ambient-canvas"></div>
 
-    <div class="container hero-content">
-      <div class="hero-grid">
-        <div class="hero-left">
-          <div class="hero-badge">
-            <i class="fa-solid fa-crown text-gold"></i>
-            <span>Premier Hair Restoration Studio in Sector 3A Laxman Vihar</span>
-          </div>
+    <div class="container hero-container">
+      <div class="hero-left-col">
+        <div class="editorial-badge">
+          <span class="badge-star"><i class="fa-solid fa-crown"></i></span>
+          <span>Boutique Hair Restoration Studio • Gurugram</span>
+        </div>
 
-          <h1 class="hero-title">
-            Restore Natural Hair & <br>
-            <span class="gold-gradient-text glow-text">Crown Your Confidence</span>
-          </h1>
+        <h1 class="hero-headline">
+          Artisanal Hair Replacement, <br>
+          <em>Engineered for Complete Realism.</em>
+        </h1>
 
-          <p class="hero-description">
-            Led by founders <strong>Ajay Thakur</strong> & <strong>Bittu Thakur</strong>. Experience 100% painless, non-surgical hair systems customized to your exact hairline. From budget-friendly daily wear at <strong>₹3,000</strong> to the <strong>₹30,000 Ultra Exclusive Premium Crown</strong>.
-          </p>
+        <p class="hero-subline">
+          Founded and personally curated by <strong>Ajay Thakur</strong> & <strong>Bittu Thakur</strong> in Sector 3A, Laxman Vihar. Non-surgical, 100% human hair systems tailored precisely to your facial symmetry and natural density.
+        </p>
 
-          <!-- Key Highlights Badges -->
-          <div class="hero-highlights">
-            <div class="highlight-item">
-              <i class="fa-solid fa-shield-halved text-gold"></i>
-              <span>100% Non-Surgical & Safe</span>
-            </div>
-            <div class="highlight-item">
-              <i class="fa-solid fa-bolt text-gold"></i>
-              <span>Instant 60 Min Fitting</span>
-            </div>
-            <div class="highlight-item">
-              <i class="fa-solid fa-star text-gold"></i>
-              <span>5.0 Google Rating (20+ Reviews)</span>
-            </div>
-          </div>
+        <div class="hero-pricing-pill">
+          <span class="pricing-label">Studio Pricing Range:</span>
+          <span class="pricing-values">₹3,000 Standard to ₹30,000 Ultra Exclusive</span>
+        </div>
 
-          <!-- Direct CTA Buttons -->
-          <div class="hero-cta-group">
-            <a href="https://wa.me/919958467830?text=Hello%20Ajay%20Thakur%20and%20Bittu%20Thakur,%20I%20would%20like%20to%20book%20a%20FREE%20Consultation%20at%20Aurelian%20Crown%20Hair%20Patch%20Studio." target="_blank" class="btn btn-gold btn-glow">
-              <i class="fa-brands fa-whatsapp text-lg"></i>
-              <span>Book Consultation on WhatsApp</span>
-            </a>
+        <!-- Call to Actions -->
+        <div class="hero-buttons">
+          <a href="https://wa.me/919958467830?text=Hello%20Ajay%20Thakur,%20I%20would%20like%20to%20schedule%20a%20free%20hair%20patch%20consultation%20at%20Aurelian%20Crown." target="_blank" class="btn-primary-gold">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span>Book Consultation on WhatsApp</span>
+          </a>
 
-            <div class="call-options-dropdown">
-              <button class="btn btn-outline" id="callDropdownBtn">
-                <i class="fa-solid fa-phone"></i>
-                <span>Direct Studio Call</span>
-                <i class="fa-solid fa-chevron-down text-xs"></i>
-              </button>
-              <div class="dropdown-menu" id="callDropdownMenu">
-                <a href="tel:+919958467830" class="dropdown-link">
-                  <div class="num-icon"><i class="fa-solid fa-phone"></i></div>
-                  <div>
-                    <strong>99584 67830</strong>
-                    <small>Ajay Thakur (Primary Call / WA)</small>
-                  </div>
-                </a>
-                <a href="tel:+917827867830" class="dropdown-link">
-                  <div class="num-icon"><i class="fa-solid fa-phone"></i></div>
-                  <div>
-                    <strong>78278 67830</strong>
-                    <small>Bittu Thakur / Studio Direct</small>
-                  </div>
-                </a>
-              </div>
+          <div class="direct-call-dropdown">
+            <button class="btn-secondary-white" id="callDropdownBtn">
+              <i class="fa-solid fa-phone"></i>
+              <span>Direct Call</span>
+              <i class="fa-solid fa-chevron-down arrow-down"></i>
+            </button>
+            <div class="call-dropdown-list" id="callDropdownMenu">
+              <a href="tel:+919958467830" class="dropdown-item">
+                <div class="item-avatar"><i class="fa-solid fa-user-tie"></i></div>
+                <div>
+                  <strong>+91 99584 67830</strong>
+                  <span>Ajay Thakur (Founder)</span>
+                </div>
+              </a>
+              <a href="tel:+917827867830" class="dropdown-item">
+                <div class="item-avatar"><i class="fa-solid fa-user-check"></i></div>
+                <div>
+                  <strong>+91 78278 67830</strong>
+                  <span>Bittu Thakur (Co-Owner)</span>
+                </div>
+              </a>
             </div>
           </div>
+        </div>
 
-          <!-- Social Quick Links -->
-          <div class="social-quick-links">
-            <span class="social-label">Follow Us:</span>
-            <a href="https://www.instagram.com/aureliancrownhairpatchstudio" target="_blank" class="social-chip ig-chip" title="Instagram">
-              <i class="fa-brands fa-instagram"></i>
-              <span>@aureliancrownhairpatchstudio</span>
-            </a>
-            <a href="https://www.facebook.com" target="_blank" class="social-chip fb-chip" title="Facebook">
-              <i class="fa-brands fa-facebook-f"></i>
-              <span>Aurelian Crown Facebook</span>
+        <!-- Social Proof Bar -->
+        <div class="hero-proof-bar">
+          <div class="google-badge-clean">
+            <div class="stars-gold">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <span><strong>5.0 / 5.0 Rating</strong> on Google Verified Business (20+ Reviews)</span>
+          </div>
+          <div class="ig-proof-link">
+            <a href="https://www.instagram.com/aureliancrownhairpatchstudio" target="_blank">
+              <i class="fa-brands fa-instagram"></i> @aureliancrownhairpatchstudio
             </a>
           </div>
         </div>
+      </div>
 
-        <!-- Hero Right: 3D Dual Owners Showcase Card -->
-        <div class="hero-right">
-          <div class="hero-3d-card" id="hero3DCard">
-            <div class="card-inner">
-              <div class="special-badge">
-                <span class="fire-icon">🔥</span> CUSTOM HAIR PATCHES: ₹3,000 – ₹30,000
-              </div>
+      <!-- Hero Right: Interactive Before / After Spotlight Card -->
+      <div class="hero-right-col">
+        <div class="spotlight-card">
+          <div class="card-tag-row">
+            <span class="live-pill"><span class="dot"></span> Live Studio Client</span>
+            <span class="price-chip">₹3,000 – ₹30,000</span>
+          </div>
 
-              <!-- Real Client Transformation Image -->
-              <div class="image-showcase-box">
-                <img src="assets/images/client-after.png" alt="Client Real Hair Patch Result at Aurelian Crown" class="hero-feature-img">
-                <div class="shine-effect"></div>
-                <div class="live-client-tag">
-                  <i class="fa-solid fa-circle-check text-green"></i> 100% Real Studio Result
-                </div>
-              </div>
-
-              <!-- Owners Dual Avatar Bar -->
-              <div class="card-footer-info owners-footer-bar">
-                <div class="dual-owner-pill">
-                  <img src="assets/images/ajay-thakur.png" alt="Ajay Thakur" class="owner-mini-avatar">
-                  <div>
-                    <h4>Ajay Thakur</h4>
-                    <p>Founder & Master Specialist</p>
-                  </div>
-                </div>
-
-                <div class="dual-owner-pill">
-                  <img src="assets/images/bittu-thakur.png" alt="Bittu Thakur" class="owner-mini-avatar">
-                  <div>
-                    <h4>Bittu Thakur</h4>
-                    <p>Co-Owner & Specialist</p>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Floating 3D Micro Badges -->
-              <div class="floating-3d-badge badge-1">
-                <i class="fa-solid fa-crown text-gold"></i>
-                <span>₹30K Ultra Exclusive Available</span>
-              </div>
-              <div class="floating-3d-badge badge-2">
-                <i class="fa-solid fa-shield-halved text-green"></i>
-                <span>Zero Pain • 100% Safe</span>
-              </div>
+          <!-- Featured Real Client Image -->
+          <div class="spotlight-img-box">
+            <img src="assets/images/client-after.png" alt="Real client after hair patch fitting at Aurelian Crown Studio" class="spotlight-img">
+            <div class="spotlight-floating-banner">
+              <strong>60 Minutes Procedure</strong>
+              <span>Zero Pain • 100% Human Hair</span>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
 
-    <!-- Quick Stats Bar -->
-    <div class="stats-counter-strip">
-      <div class="container stats-grid">
-        <div class="stat-box">
-          <div class="stat-number">100%</div>
-          <div class="stat-label">Natural Human Hair</div>
-        </div>
-        <div class="stat-box">
-          <div class="stat-number">6 Tiers</div>
-          <div class="stat-label">₹3,000 to ₹30,000</div>
-        </div>
-        <div class="stat-box">
-          <div class="stat-number">60-90</div>
-          <div class="stat-label">Mins Instant Transformation</div>
-        </div>
-        <div class="stat-box">
-          <div class="stat-number">5.0 ★</div>
-          <div class="stat-label">Google Verified Rating</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Meet The Owners Section (Ajay Thakur & Bittu Thakur) -->
-  <section class="about-section" id="about">
-    <div class="container">
-      <div class="section-header text-center">
-        <div class="sub-heading-pill">THE FACES BEHIND AURELIAN CROWN</div>
-        <h2 class="section-title">Meet Our Founders & <span class="gold-gradient-text">Master Hair Specialists</span></h2>
-        <p class="section-subtitle">Personally crafted, measured, and styled by Ajay Thakur & Bittu Thakur at Sector 3A, Laxman Vihar, Gurugram.</p>
-      </div>
-
-      <div class="owners-showcase-grid">
-        <!-- Ajay Thakur Card -->
-        <div class="owner-profile-card">
-          <div class="owner-img-wrap">
-            <img src="assets/images/ajay-thakur.png" alt="Ajay Thakur - Founder Aurelian Crown Hair Patch Studio" class="owner-photo">
-            <div class="owner-gold-badge">FOUNDER & MASTER STYLIST</div>
-          </div>
-          <div class="owner-info">
-            <h3 class="owner-name">Ajay Thakur</h3>
-            <span class="owner-title">Founder & Hair Replacement Specialist</span>
-            <p class="owner-bio">
-              With years of hands-on mastery in scalp anatomy, lace base profiling, and seamless hairline blending, Ajay Thakur personally directs every hair patch styling session to ensure zero distinction between original hair and the patch.
-            </p>
-            <div class="owner-contacts">
-              <a href="tel:+919958467830" class="btn btn-sm btn-gold">
-                <i class="fa-solid fa-phone"></i> Call Ajay: 99584 67830
-              </a>
-              <a href="https://wa.me/919958467830?text=Hello%20Ajay%20Thakur,%20I%20want%20to%20consult%20regarding%20a%20hair%20patch." target="_blank" class="btn btn-sm btn-outline">
-                <i class="fa-brands fa-whatsapp"></i> WhatsApp Ajay
-              </a>
+          <!-- Owners Mini Bar -->
+          <div class="spotlight-footer">
+            <div class="owner-chip">
+              <img src="assets/images/ajay-thakur.png" alt="Ajay Thakur" class="chip-avatar">
+              <div>
+                <strong>Ajay Thakur</strong>
+                <small>Founder & Stylist</small>
+              </div>
             </div>
-          </div>
-        </div>
-
-        <!-- Bittu Thakur Card -->
-        <div class="owner-profile-card">
-          <div class="owner-img-wrap">
-            <img src="assets/images/bittu-thakur.png" alt="Bittu Thakur - Co-Owner Aurelian Crown Hair Patch Studio" class="owner-photo">
-            <div class="owner-gold-badge">CO-OWNER & SPECIALIST</div>
-          </div>
-          <div class="owner-info">
-            <h3 class="owner-name">Bittu Thakur</h3>
-            <span class="owner-title">Co-Owner & Technical Specialist</span>
-            <p class="owner-bio">
-              Bittu Thakur oversees custom fitting, hair density calibration, and advanced bonding methods (waterproof adhesive, breathable tapes, and clip-on systems) tailored for Delhi NCR's climate and active customer lifestyles.
-            </p>
-            <div class="owner-contacts">
-              <a href="tel:+917827867830" class="btn btn-sm btn-gold">
-                <i class="fa-solid fa-phone"></i> Call Bittu: 78278 67830
-              </a>
-              <a href="https://wa.me/917827867830?text=Hello%20Bittu%20Thakur,%20I%20want%20to%20consult%20regarding%20a%20hair%20patch." target="_blank" class="btn btn-sm btn-outline">
-                <i class="fa-brands fa-whatsapp"></i> WhatsApp Bittu
-              </a>
+            <div class="owner-chip">
+              <img src="assets/images/bittu-thakur.png" alt="Bittu Thakur" class="chip-avatar">
+              <div>
+                <strong>Bittu Thakur</strong>
+                <small>Co-Owner & Specialist</small>
+              </div>
             </div>
           </div>
         </div>
@@ -296,592 +199,555 @@
     </div>
   </section>
 
-  <!-- Interactive Before & After Real Transformation Gallery -->
-  <section class="transformations-section" id="transformations">
+  <!-- Metric Numbers Ribbon -->
+  <section class="metrics-ribbon">
+    <div class="container metrics-grid">
+      <div class="metric-item">
+        <span class="metric-num">100%</span>
+        <span class="metric-caption">Natural Human Hair Only</span>
+      </div>
+      <div class="metric-item">
+        <span class="metric-num">60 Mins</span>
+        <span class="metric-caption">Same-Day Walk-In Fitting</span>
+      </div>
+      <div class="metric-item">
+        <span class="metric-num">₹3,000</span>
+        <span class="metric-caption">Starting Package Available</span>
+      </div>
+      <div class="metric-item">
+        <span class="metric-num">5.0 ★</span>
+        <span class="metric-caption">Google Client Satisfaction</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Before & After Real Client Slider -->
+  <section class="section-container" id="transformations">
     <div class="container">
-      <div class="section-header text-center">
-        <div class="sub-heading-pill">REAL CLIENT TRANSFORMATIONS</div>
-        <h2 class="section-title">See The <span class="gold-gradient-text">Life-Changing Results</span></h2>
-        <p class="section-subtitle">Real clients treated in the salon chair at Aurelian Crown Hair Patch Studio in Laxman Vihar, Sector 3A, Gurugram.</p>
+      <div class="section-title-wrap text-center">
+        <span class="section-subtitle-tag">REAL CLIENT PROOF</span>
+        <h2 class="section-main-heading">See The True Transformation</h2>
+        <p class="section-subtext">Direct from the salon chair in Sector 3A, Laxman Vihar. Slide to compare the bald crown before and the seamless natural hair patch after.</p>
       </div>
 
-      <!-- Interactive Drag-to-Compare Before/After Slider -->
-      <div class="interactive-slider-wrapper">
-        <div class="slider-header-badge">
-          <i class="fa-solid fa-arrows-left-right text-gold"></i>
-          <span>DRAG THE SLIDER HORIZONTALLY TO COMPARE BEFORE & AFTER</span>
+      <div class="comparison-slider-container">
+        <div class="slider-instruction">
+          <i class="fa-solid fa-arrows-left-right"></i>
+          <span>Drag the golden divider left and right to inspect the hairline</span>
         </div>
 
-        <div class="ba-slider-container" id="baSliderContainer">
-          <!-- Before Image (Base) -->
-          <img src="assets/images/client-before.png" alt="Client Before Hair Patch in Salon Chair" class="ba-img ba-img-before">
+        <div class="slider-viewport" id="sliderViewport">
+          <!-- Before (Base Image) -->
+          <img src="assets/images/client-before.png" alt="Client before hair patch at Aurelian Crown" class="img-base">
           
-          <!-- After Image (Clipped Overlay) -->
-          <div class="ba-img-after-wrap" id="baAfterWrap">
-            <img src="assets/images/client-after.png" alt="Client After Hair Patch Transformation by Ajay & Bittu Thakur" class="ba-img ba-img-after" id="baAfterImg">
+          <!-- After (Clipped Overlay) -->
+          <div class="overlay-clip" id="overlayClip">
+            <img src="assets/images/client-after.png" alt="Client after hair patch by Ajay Thakur" class="img-overlay" id="imgOverlay">
           </div>
 
-          <!-- Draggable Divider Line & Knob -->
-          <div class="ba-slider-handle" id="baSliderHandle">
-            <div class="ba-handle-line"></div>
-            <div class="ba-handle-knob">
+          <!-- Divider Handle -->
+          <div class="slider-divider" id="sliderDivider">
+            <div class="divider-line"></div>
+            <div class="divider-button">
               <i class="fa-solid fa-chevron-left"></i>
               <i class="fa-solid fa-crown text-gold"></i>
               <i class="fa-solid fa-chevron-right"></i>
             </div>
-            <div class="ba-handle-line"></div>
+            <div class="divider-line"></div>
           </div>
 
-          <!-- Floating Badges -->
-          <div class="ba-label ba-label-before">BEFORE FITTING</div>
-          <div class="ba-label ba-label-after">AFTER WITH AURELIAN CROWN</div>
+          <!-- Labels -->
+          <span class="label-pill label-before">BEFORE FITTING</span>
+          <span class="label-pill label-after">AFTER RESTORATION</span>
         </div>
 
-        <div class="slider-caption-card">
-          <div class="client-meta">
-            <h4>Authentic Transformation in Salon Chair</h4>
-            <p><i class="fa-solid fa-user-tie text-gold"></i> Crafted by Ajay Thakur & Bittu Thakur • Sector 3A Laxman Vihar Studio</p>
+        <div class="slider-info-bar">
+          <div>
+            <h4>Full Balding Crown Restored</h4>
+            <p>Custom hairline design & side-fade blending executed by Ajay Thakur & Bittu Thakur.</p>
           </div>
-          <div class="client-tags">
-            <span class="c-tag"><i class="fa-solid fa-check"></i> 100% Real Human Hair</span>
-            <span class="c-tag"><i class="fa-solid fa-check"></i> Seamless Side Fade Blend</span>
-            <span class="c-tag"><i class="fa-solid fa-check"></i> Instant Confidence Restored</span>
-          </div>
-          <a href="https://wa.me/919958467830?text=Hello%20Ajay%20Thakur,%20I%20saw%20the%20Before/After%20slider%20on%20your%20website%20and%20want%20the%20same%20hair%20patch." target="_blank" class="btn btn-gold btn-sm">
-            <i class="fa-brands fa-whatsapp"></i> Get This Exact Look
+          <a href="https://wa.me/919958467830?text=Hello%20Ajay%20Thakur,%20I%20saw%20the%20slider%20on%20your%20website%20and%20want%20this%20exact%20result." target="_blank" class="btn-primary-gold btn-sm">
+            <i class="fa-brands fa-whatsapp"></i> Request Similar Look
           </a>
         </div>
       </div>
 
       <!-- Additional Flyers Gallery -->
-      <div class="transformation-showcase-grid">
-        <div class="transformation-card">
-          <div class="trans-header">
-            <h4>Full Crown Balding To Youthful Volume</h4>
-            <span class="badge-price">Starting ₹3,000/-</span>
+      <div class="flyers-grid">
+        <div class="flyer-card">
+          <div class="flyer-img-wrap">
+            <img src="assets/images/before-after-1.png" alt="Client Transformation 100% Real" class="flyer-img">
           </div>
-          <div class="trans-img-container">
-            <img src="assets/images/before-after-1.png" alt="Before and After Hair Patch Transformation Gurugram" class="trans-img">
-            <div class="trans-overlay-badges">
-              <span class="badge-before">BEFORE</span>
-              <span class="badge-after">AFTER</span>
-            </div>
-          </div>
-          <div class="trans-details">
-            <p><i class="fa-solid fa-circle-check text-gold"></i> French Lace Front with Natural Graduated Density</p>
-            <p><i class="fa-solid fa-circle-check text-gold"></i> Service Duration: 65 Minutes</p>
-            <a href="https://wa.me/919958467830?text=Hi%20Ajay,%20I%20want%20a%20similar%20look%20like%20Flyer%20Transformation%201" class="btn btn-sm btn-gold">I Want This Look</a>
+          <div class="flyer-desc">
+            <h4>Receding Crown to Full Density</h4>
+            <p>French micro-lace front system with graduated density. Starting at ₹3,000/-.</p>
           </div>
         </div>
 
-        <div class="transformation-card">
-          <div class="trans-header">
-            <h4>Receding Hairline & Top Thinning Restored</h4>
-            <span class="badge-price">100% Real Human Hair</span>
+        <div class="flyer-card">
+          <div class="flyer-img-wrap">
+            <img src="assets/images/before-after-2.jpg" alt="Special Offer Hair Patches starting from 2999" class="flyer-img">
           </div>
-          <div class="trans-img-container">
-            <img src="assets/images/before-after-2.jpg" alt="Natural Hair Patch Before and After Ajay Thakur" class="trans-img">
-            <div class="trans-overlay-badges">
-              <span class="badge-before">BEFORE</span>
-              <span class="badge-after">AFTER</span>
-            </div>
-          </div>
-          <div class="trans-details">
-            <p><i class="fa-solid fa-circle-check text-gold"></i> Ultra Thin Poly Skin Base for Invisible Hairline</p>
-            <p><i class="fa-solid fa-circle-check text-gold"></i> Customized Hair Texture & Wave Matched</p>
-            <a href="https://wa.me/917827867830?text=Hi%20Bittu,%20I%20want%20a%20similar%20look%20like%20Flyer%20Transformation%202" class="btn btn-sm btn-gold">Book This Style</a>
+          <div class="flyer-desc">
+            <h4>Natural Look & Feel Guarantee</h4>
+            <p>Lightweight, comfortable, 100% non-surgical. Quick & easy appointment.</p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Benefits of Hair Patch Section -->
-  <section class="benefits-section" id="benefits">
+  <!-- Meet The Founders (Ajay Thakur & Bittu Thakur) -->
+  <section class="section-container bg-warm-light" id="about">
     <div class="container">
-      <div class="section-header text-center">
-        <div class="sub-heading-pill">WHY CHOOSE HAIR PATCH?</div>
-        <h2 class="section-title">Superior Benefits Over <span class="gold-gradient-text">Surgery & Transplants</span></h2>
-        <p class="section-subtitle">Discover why hundreds of clients in Gurugram choose Aurelian Crown systems over painful and risky transplants.</p>
+      <div class="section-title-wrap text-center">
+        <span class="section-subtitle-tag">THE CRAFTSMEN</span>
+        <h2 class="section-main-heading">Meet Ajay Thakur & Bittu Thakur</h2>
+        <p class="section-subtext">No impersonal clinic doctors or corporate agents. You work directly with the studio founders from measurement to styling.</p>
       </div>
 
-      <div class="benefits-grid">
-        <div class="benefit-card tilt-card">
-          <div class="benefit-icon-wrap">
-            <i class="fa-solid fa-hand-holding-heart"></i>
+      <div class="founders-dual-grid">
+        <!-- Ajay Thakur -->
+        <div class="founder-card">
+          <div class="founder-photo-box">
+            <img src="assets/images/ajay-thakur.png" alt="Ajay Thakur - Founder Aurelian Crown Hair Patch Studio" class="founder-photo">
+            <span class="founder-role-tag">FOUNDER & MASTER STYLIST</span>
           </div>
-          <h3 class="benefit-title">100% Safe & Non-Surgical</h3>
-          <p class="benefit-desc">No surgery, no needles, no stitches, and no downtime. Completely free of medical side effects or chemical dependency.</p>
-          <div class="benefit-tag">Zero Risk</div>
-        </div>
-
-        <div class="benefit-card tilt-card">
-          <div class="benefit-icon-wrap">
-            <i class="fa-solid fa-clock-rotate-left"></i>
-          </div>
-          <h3 class="benefit-title">Instant Transformation</h3>
-          <p class="benefit-desc">Walk into Aurelian Crown Studio and walk out in just 60 to 90 minutes with a full, youthful head of hair ready to style.</p>
-          <div class="benefit-tag">Under 90 Mins</div>
-        </div>
-
-        <div class="benefit-card tilt-card">
-          <div class="benefit-icon-wrap">
-            <i class="fa-solid fa-eye-slash"></i>
-          </div>
-          <h3 class="benefit-title">Undetectable Hairline</h3>
-          <p class="benefit-desc">Swiss lace and ultra-thin poly membranes mimic real scalp pores. Totally invisible even under harsh sunlight.</p>
-          <div class="benefit-tag">Invisible Mesh</div>
-        </div>
-
-        <div class="benefit-card tilt-card">
-          <div class="benefit-icon-wrap">
-            <i class="fa-solid fa-wind"></i>
-          </div>
-          <h3 class="benefit-title">Lightweight & Breathable</h3>
-          <p class="benefit-desc">Tailored for Delhi NCR summers. Micro-pores allow perspiration to escape, keeping your scalp cool, fresh, and comfortable.</p>
-          <div class="benefit-tag">All-Weather Comfort</div>
-        </div>
-
-        <div class="benefit-card tilt-card">
-          <div class="benefit-icon-wrap">
-            <i class="fa-solid fa-scissors"></i>
-          </div>
-          <h3 class="benefit-title">Custom Fitted & Cut</h3>
-          <p class="benefit-desc">Ajay Thakur & Bittu Thakur match your natural hair density, color undertones, wave pattern, and facial structure.</p>
-          <div class="benefit-tag">Tailor-Made Fit</div>
-        </div>
-
-        <div class="benefit-card tilt-card highlight-card">
-          <div class="benefit-icon-wrap gold-bg">
-            <i class="fa-solid fa-tags"></i>
-          </div>
-          <h3 class="benefit-title">Starting @ Just ₹3,000/-</h3>
-          <p class="benefit-desc">Why pay ₹1,00,000+ for painful transplants? Get world-class luxury hair systems at direct studio pricing in Gurugram.</p>
-          <div class="benefit-tag gold-tag">Unbeatable Value</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Hair Patch Base Systems Section -->
-  <section class="bases-section" id="bases">
-    <div class="container">
-      <div class="section-header text-center">
-        <div class="sub-heading-pill">GENUINE STUDIO CRAFTSMANSHIP</div>
-        <h2 class="section-title">The Real <span class="gold-gradient-text">Hair Patch Bases We Stock</span></h2>
-        <p class="section-subtitle">Take a direct look at the actual bases kept in stock at Aurelian Crown Studio in Laxman Vihar.</p>
-      </div>
-
-      <div class="base-showcase-box">
-        <div class="base-image-frame">
-          <img src="assets/images/patch-bases.png" alt="Hair Patch Bases: Poly Skin, French Lace, Fine Mono - Aurelian Crown" class="base-img">
-          <div class="base-caption-overlay">
-            <i class="fa-solid fa-camera text-gold"></i> Actual In-Stock Hair Patch Systems at Aurelian Crown Studio
-          </div>
-        </div>
-
-        <div class="base-types-grid">
-          <div class="base-card">
-            <div class="base-card-header">
-              <span class="base-num">01</span>
-              <h4>Ultra-Thin Poly Skin (Bio-Skin)</h4>
+          <div class="founder-details">
+            <h3>Ajay Thakur</h3>
+            <span class="founder-title">Founder & Scalp Profiling Specialist</span>
+            <p>
+              Ajay Thakur oversees every hair system's curvature, front hairline placement, and individualized haircutting. His philosophy is simple: a hair patch must never look like an accessory—it must look like it grew directly from your follicle.
+            </p>
+            <div class="founder-contact-actions">
+              <a href="tel:+919958467830" class="btn-founder-call"><i class="fa-solid fa-phone"></i> Call Ajay: 99584 67830</a>
+              <a href="https://wa.me/919958467830?text=Hi%20Ajay%20Thakur,%20I%20want%20to%20consult%20regarding%20a%20hair%20patch." target="_blank" class="btn-founder-wa"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
             </div>
-            <p>0.03mm second-skin transparent base. Follicles are V-looped with zero knots, giving the sensation that hair is sprouting straight from your skin.</p>
-            <ul class="base-perks">
-              <li><i class="fa-solid fa-check text-gold"></i> 100% natural hairline</li>
-              <li><i class="fa-solid fa-check text-gold"></i> Easy to clean & re-tape</li>
-            </ul>
           </div>
+        </div>
 
-          <div class="base-card">
-            <div class="base-card-header">
-              <span class="base-num">02</span>
-              <h4>French & Swiss Lace Front</h4>
-            </div>
-            <p>Delicate honeycomb lace front with poly perimeter. Bleached knots provide an undetectable front hairline while the PU border gives durable bond hold.</p>
-            <ul class="base-perks">
-              <li><i class="fa-solid fa-check text-gold"></i> Maximum air circulation</li>
-              <li><i class="fa-solid fa-check text-gold"></i> Ideal for back-brushed hairstyles</li>
-            </ul>
+        <!-- Bittu Thakur -->
+        <div class="founder-card">
+          <div class="founder-photo-box">
+            <img src="assets/images/bittu-thakur.png" alt="Bittu Thakur - Co-Owner Aurelian Crown Hair Patch Studio" class="founder-photo">
+            <span class="founder-role-tag">CO-OWNER & SPECIALIST</span>
           </div>
-
-          <div class="base-card">
-            <div class="base-card-header">
-              <span class="base-num">03</span>
-              <h4>Breathable Monofilament Silk Top</h4>
+          <div class="founder-details">
+            <h3>Bittu Thakur</h3>
+            <span class="founder-title">Co-Owner & Technical Systems Specialist</span>
+            <p>
+              Bittu Thakur manages base selection, hair density matching, and bonding technology. Whether you prefer everyday breathable tapes, waterproof sports bonding, or removable clips, Bittu ensures maximum longevity and zero irritation.
+            </p>
+            <div class="founder-contact-actions">
+              <a href="tel:+917827867830" class="btn-founder-call"><i class="fa-solid fa-phone"></i> Call Bittu: 78278 67830</a>
+              <a href="https://wa.me/917827867830?text=Hi%20Bittu%20Thakur,%20I%20want%20to%20consult%20regarding%20a%20hair%20patch." target="_blank" class="btn-founder-wa"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
             </div>
-            <p>Finely woven monofilament mesh offering multi-year durability. Hair can be parted in any direction (left, right, center, or spiked).</p>
-            <ul class="base-perks">
-              <li><i class="fa-solid fa-check text-gold"></i> Highest durability (8-14 months)</li>
-              <li><i class="fa-solid fa-check text-gold"></i> Resistant to heat & helmet wear</li>
-            </ul>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Complete 6-Tier Pricing Grid: ₹3,000 to ₹30,000 -->
-  <section class="pricing-section" id="pricing">
+  <!-- Complete 6-Tier Pricing Section: ₹3,000 to ₹30,000 -->
+  <section class="section-container" id="pricing">
     <div class="container">
-      <div class="section-header text-center">
-        <div class="sub-heading-pill">COMPLETE TRANSPARENT PRICING</div>
-        <h2 class="section-title">Hair Patch Packages From <span class="gold-gradient-text">₹3,000 to ₹30,000</span></h2>
-        <p class="section-subtitle">Choose from standard durable patches to our handcrafted Ultra Exclusive Premium Royal Crown.</p>
+      <div class="section-title-wrap text-center">
+        <span class="section-subtitle-tag">TRANSPARENT VALUE</span>
+        <h2 class="section-main-heading">Packages From ₹3,000 to ₹30,000</h2>
+        <p class="section-subtext">All prices include scalp measurement, professional haircut, baseline styling, and post-application tutorial. Zero surprise charges.</p>
       </div>
 
-      <div class="pricing-packages-grid">
+      <div class="pricing-card-grid">
         <!-- Tier 1: ₹3,000 -->
-        <div class="pricing-tier-card">
-          <div class="tier-badge">ENTRY LEVEL</div>
-          <div class="tier-price-box">
-            <span class="tier-currency">₹</span>
-            <span class="tier-amount">3,000</span>
-            <span class="tier-tag">Standard Classic</span>
+        <div class="p-card">
+          <span class="p-tier-name">ENTRY STANDARD</span>
+          <div class="p-price">
+            <span class="currency">₹</span><span class="val">3,000</span>
           </div>
-          <p class="tier-desc">Durable everyday hair patch with robust monofilament mesh base.</p>
-          <ul class="tier-features">
-            <li><i class="fa-solid fa-check text-gold"></i> 100% Natural Human Hair</li>
-            <li><i class="fa-solid fa-check text-gold"></i> Standard Mono Base</li>
-            <li><i class="fa-solid fa-check text-gold"></i> Custom Fitting & Basic Haircut</li>
-            <li><i class="fa-solid fa-check text-gold"></i> Tape / Clip Attachment Option</li>
+          <span class="p-subname">Standard Classic Mono</span>
+          <p class="p-desc">High durability monofilament mesh base. Perfect for budget-conscious everyday wear.</p>
+          <ul class="p-perks">
+            <li><i class="fa-solid fa-check"></i> 100% Real Natural Human Hair</li>
+            <li><i class="fa-solid fa-check"></i> Robust Monofilament Mesh</li>
+            <li><i class="fa-solid fa-check"></i> Standard Taping / Clip Setup</li>
+            <li><i class="fa-solid fa-check"></i> Complimentary Basic Haircut</li>
           </ul>
-          <a href="https://wa.me/919958467830?text=Hi%20Ajay%20Thakur,%20I%20am%20interested%20in%20the%20Rs%203000%20Standard%20Patch." target="_blank" class="btn btn-outline btn-block">
-            Book ₹3,000 Patch
+          <a href="https://wa.me/919958467830?text=Hi%20Ajay%20Thakur,%20I%20am%20interested%20in%20the%20Rs%203,000%20Standard%20Patch." target="_blank" class="p-btn">
+            Select ₹3,000 Tier
           </a>
         </div>
 
         <!-- Tier 2: ₹5,000 -->
-        <div class="pricing-tier-card">
-          <div class="tier-badge">VALUE FAVORITE</div>
-          <div class="tier-price-box">
-            <span class="tier-currency">₹</span>
-            <span class="tier-amount">5,000</span>
-            <span class="tier-tag">Natural Mirage Lace</span>
+        <div class="p-card">
+          <span class="p-tier-name">VALUE CHOICE</span>
+          <div class="p-price">
+            <span class="currency">₹</span><span class="val">5,000</span>
           </div>
-          <p class="tier-desc">Lace front combined with durable poly border for natural look and long hold.</p>
-          <ul class="tier-features">
-            <li><i class="fa-solid fa-check text-gold"></i> 100% Indian Remy Human Hair</li>
-            <li><i class="fa-solid fa-check text-gold"></i> Mirage Swiss Lace Front</li>
-            <li><i class="fa-solid fa-check text-gold"></i> Personalized Hair Texture Matching</li>
-            <li><i class="fa-solid fa-check text-gold"></i> Waterproof Bonding / Taping</li>
+          <span class="p-subname">Natural Mirage Lace</span>
+          <p class="p-desc">Fine Swiss lace front combined with a perimeter PU base for strong bond hold.</p>
+          <ul class="p-perks">
+            <li><i class="fa-solid fa-check"></i> 100% Indian Remy Hair</li>
+            <li><i class="fa-solid fa-check"></i> Undetectable Lace Front Hairline</li>
+            <li><i class="fa-solid fa-check"></i> Waterproof Taping & Bonding</li>
+            <li><i class="fa-solid fa-check"></i> Custom Hair Wave Matching</li>
           </ul>
-          <a href="https://wa.me/919958467830?text=Hi%20Ajay%20Thakur,%20I%20am%20interested%20in%20the%20Rs%205000%20Mirage%20Lace%20Patch." target="_blank" class="btn btn-outline btn-block">
-            Book ₹5,000 Patch
+          <a href="https://wa.me/919958467830?text=Hi%20Ajay%20Thakur,%20I%20am%20interested%20in%20the%20Rs%205,000%20Mirage%20Lace%20Patch." target="_blank" class="p-btn">
+            Select ₹5,000 Tier
           </a>
         </div>
 
-        <!-- Tier 3: ₹8,000 (Popular) -->
-        <div class="pricing-tier-card featured-tier">
-          <div class="tier-popular-tag">MOST RECOMMENDED</div>
-          <div class="tier-price-box">
-            <span class="tier-currency">₹</span>
-            <span class="tier-amount">8,000</span>
-            <span class="tier-tag">Silk Top Fine Mono</span>
+        <!-- Tier 3: ₹8,000 (Recommended) -->
+        <div class="p-card p-recommended">
+          <div class="p-badge-recom">MOST POPULAR</div>
+          <span class="p-tier-name">CLIENT FAVORITE</span>
+          <div class="p-price">
+            <span class="currency">₹</span><span class="val">8,000</span>
           </div>
-          <p class="tier-desc">Silk top base with multi-directional free parting and concealed knots.</p>
-          <ul class="tier-features">
-            <li><i class="fa-solid fa-check text-gold"></i> 100% Virgin Remy Soft Hair</li>
-            <li><i class="fa-solid fa-check text-gold"></i> Silk Injected Scalp Top</li>
-            <li><i class="fa-solid fa-check text-gold"></i> Multi-Directional Hair Parting</li>
-            <li><i class="fa-solid fa-check text-gold"></i> Sweat & Heat Proof Bonding</li>
-            <li><i class="fa-solid fa-check text-gold"></i> 1 Free Maintenance Consultation</li>
+          <span class="p-subname">Silk Top Fine Mono</span>
+          <p class="p-desc">Silk injected scalp top with multi-directional free parting. Knots are completely hidden.</p>
+          <ul class="p-perks">
+            <li><i class="fa-solid fa-check"></i> Virgin Remy Cuticle-Aligned Hair</li>
+            <li><i class="fa-solid fa-check"></i> Silk Injection Concealed Knots</li>
+            <li><i class="fa-solid fa-check"></i> Multi-Directional Free Styling</li>
+            <li><i class="fa-solid fa-check"></i> 1 Free Maintenance Service</li>
           </ul>
-          <a href="https://wa.me/919958467830?text=Hi%20Ajay%20Thakur,%20I%20am%20interested%20in%20the%20Rs%208000%20Silk%20Top%20Patch." target="_blank" class="btn btn-gold btn-block btn-glow">
-            Book ₹8,000 Patch
+          <a href="https://wa.me/919958467830?text=Hi%20Ajay%20Thakur,%20I%20am%20interested%20in%20the%20Rs%208,000%20Silk%20Top%20Patch." target="_blank" class="p-btn p-btn-gold">
+            Select ₹8,000 Tier
           </a>
         </div>
 
         <!-- Tier 4: ₹10,000 -->
-        <div class="pricing-tier-card">
-          <div class="tier-badge">LUXURY SECOND-SKIN</div>
-          <div class="tier-price-box">
-            <span class="tier-currency">₹</span>
-            <span class="tier-amount">10,000</span>
-            <span class="tier-tag">Ultra-Thin Bio-Skin</span>
+        <div class="p-card">
+          <span class="p-tier-name">SECOND-SKIN</span>
+          <div class="p-price">
+            <span class="currency">₹</span><span class="val">10,000</span>
           </div>
-          <p class="tier-desc">0.03mm second-skin polyurethane membrane with seamless touch feel.</p>
-          <ul class="tier-features">
-            <li><i class="fa-solid fa-check text-gold"></i> V-Looped Knotless Follicles</li>
-            <li><i class="fa-solid fa-check text-gold"></i> Featherlight Weight (feels like zero hair)</li>
-            <li><i class="fa-solid fa-check text-gold"></i> Completely Undetectable to Touch</li>
-            <li><i class="fa-solid fa-check text-gold"></i> Ajay Thakur Precision Salon Cut</li>
+          <span class="p-subname">Ultra-Thin Bio-Skin</span>
+          <p class="p-desc">0.03mm polyurethane membrane that adheres like a second skin with zero seams.</p>
+          <ul class="p-perks">
+            <li><i class="fa-solid fa-check"></i> V-Looped Knotless Follicles</li>
+            <li><i class="fa-solid fa-check"></i> Featherlight (zero scalp weight)</li>
+            <li><i class="fa-solid fa-check"></i> Undetectable to Touch</li>
+            <li><i class="fa-solid fa-check"></i> Custom Scalp Contour Fitting</li>
           </ul>
-          <a href="https://wa.me/917827867830?text=Hi%20Bittu%20Thakur,%20I%20am%20interested%20in%20the%20Rs%2010000%20Bio-Skin%20Patch." target="_blank" class="btn btn-outline btn-block">
-            Book ₹10,000 Patch
+          <a href="https://wa.me/917827867830?text=Hi%20Bittu%20Thakur,%20I%20am%20interested%20in%20the%20Rs%2010,000%20Bio-Skin%20Patch." target="_blank" class="p-btn">
+            Select ₹10,000 Tier
           </a>
         </div>
 
         <!-- Tier 5: ₹12,000 -->
-        <div class="pricing-tier-card">
-          <div class="tier-badge">HIGH DEFINITION</div>
-          <div class="tier-price-box">
-            <span class="tier-currency">₹</span>
-            <span class="tier-amount">12,000</span>
-            <span class="tier-tag">French/Swiss HD Lace</span>
+        <div class="p-card">
+          <span class="p-tier-name">CINEMATIC REALISM</span>
+          <div class="p-price">
+            <span class="currency">₹</span><span class="val">12,000</span>
           </div>
-          <p class="tier-desc">Full imported HD Swiss Lace with bleached micro-knots for cinematic realism.</p>
-          <ul class="tier-features">
-            <li><i class="fa-solid fa-check text-gold"></i> High-Definition Invisible Swiss Lace</li>
-            <li><i class="fa-solid fa-check text-gold"></i> 100% Bleached Micro-Knots</li>
-            <li><i class="fa-solid fa-check text-gold"></i> Extreme Breathability for Athletes</li>
-            <li><i class="fa-solid fa-check text-gold"></i> Custom Scalp Contour Template</li>
+          <span class="p-subname">Swiss HD Lace Front</span>
+          <p class="p-desc">Full high-definition Swiss lace with bleached micro-knots for intense breathability.</p>
+          <ul class="p-perks">
+            <li><i class="fa-solid fa-check"></i> High-Definition Invisible Swiss Lace</li>
+            <li><i class="fa-solid fa-check"></i> 100% Bleached Micro-Knots</li>
+            <li><i class="fa-solid fa-check"></i> High Air Flow (ideal for sports/gym)</li>
+            <li><i class="fa-solid fa-check"></i> Ajay Thakur Bespoke Salon Styling</li>
           </ul>
-          <a href="https://wa.me/919958467830?text=Hi%20Ajay%20Thakur,%20I%20am%20interested%20in%20the%20Rs%2012000%20HD%20Lace%20Patch." target="_blank" class="btn btn-outline btn-block">
-            Book ₹12,000 Patch
+          <a href="https://wa.me/919958467830?text=Hi%20Ajay%20Thakur,%20I%20am%20interested%20in%20the%20Rs%2012,000%20HD%20Lace%20Patch." target="_blank" class="p-btn">
+            Select ₹12,000 Tier
           </a>
         </div>
 
         <!-- Tier 6: ₹30,000 Ultra Exclusive Premium Patch -->
-        <div class="pricing-tier-card ultra-exclusive-tier">
-          <div class="royal-crown-tag"><i class="fa-solid fa-crown text-gold"></i> ROYAL CROWN SIGNATURE</div>
-          <div class="tier-price-box">
-            <span class="tier-currency">₹</span>
-            <span class="tier-amount gold-gradient-text">30,000</span>
-            <span class="tier-tag font-bold text-gold">Ultra Exclusive Premium Crown</span>
+        <div class="p-card p-ultra-exclusive">
+          <div class="p-crown-badge"><i class="fa-solid fa-crown"></i> SIGNATURE CROWN</div>
+          <span class="p-tier-name">MASTERPIECE</span>
+          <div class="p-price">
+            <span class="currency">₹</span><span class="val">30,000</span>
           </div>
-          <p class="tier-desc">The absolute pinnacle of luxury non-surgical hair restoration. Individually hand-crafted to order.</p>
-          <ul class="tier-features">
-            <li><i class="fa-solid fa-gem text-gold"></i> 100% Virgin European Remy Cuticle-Intact Hair</li>
-            <li><i class="fa-solid fa-gem text-gold"></i> Bespoke Custom Handcrafted Scalp Cast</li>
-            <li><i class="fa-solid fa-gem text-gold"></i> Ultra-Thin HD Mirage Hybrid Membrane</li>
-            <li><i class="fa-solid fa-gem text-gold"></i> Custom Hair Color, Gray Blending & Density Mapping</li>
-            <li><i class="fa-solid fa-gem text-gold"></i> VIP Private Studio Session by Ajay Thakur</li>
-            <li><i class="fa-solid fa-gem text-gold"></i> 3 Months Unlimited Touch-Up & Maintenance Kit</li>
+          <span class="p-subname">Ultra Exclusive Royal Crown</span>
+          <p class="p-desc">Hand-crafted to order with virgin European hair and a bespoke scalp mold.</p>
+          <ul class="p-perks">
+            <li><i class="fa-solid fa-gem text-gold"></i> 100% Virgin European Remy Cuticle Hair</li>
+            <li><i class="fa-solid fa-gem text-gold"></i> Bespoke Handcrafted 3D Scalp Cast</li>
+            <li><i class="fa-solid fa-gem text-gold"></i> Invisible Hybrid HD Second-Skin Base</li>
+            <li><i class="fa-solid fa-gem text-gold"></i> Exact Gray Hair & Texture Customization</li>
+            <li><i class="fa-solid fa-gem text-gold"></i> VIP Private Session by Ajay Thakur</li>
+            <li><i class="fa-solid fa-gem text-gold"></i> 3 Months Unlimited Servicing Kit Included</li>
           </ul>
-          <a href="https://wa.me/919958467830?text=Hello%20Ajay%20Thakur,%20I%20am%20inquiring%20about%20the%20Rs%2030,000%20Ultra%20Exclusive%20Premium%20Crown%20Hair%20Patch." target="_blank" class="btn btn-gold btn-block btn-glow">
-            <i class="fa-solid fa-crown"></i> Book ₹30,000 Ultra Crown
+          <a href="https://wa.me/919958467830?text=Hello%20Ajay%20Thakur,%20I%20am%20inquiring%20about%20the%20Rs%2030,000%20Ultra%20Exclusive%20Premium%20Crown." target="_blank" class="p-btn p-btn-gold">
+            <i class="fa-solid fa-crown"></i> Book ₹30,000 Royal Crown
           </a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Interactive Hair Cost Estimator Calculator -->
-  <section class="calculator-section" id="calculator">
+  <!-- Real Instagram Feed Section (@aureliancrownhairpatchstudio) -->
+  <section class="section-container bg-warm-light" id="instagram-feed">
     <div class="container">
-      <div class="calculator-container">
-        <div class="calculator-header text-center">
-          <span class="badge-gold"><i class="fa-solid fa-calculator"></i> INSTANT ESTIMATOR</span>
-          <h2>Calculate Your Custom Hair Patch Estimate</h2>
-          <p>Select your balding area and patch tier to calculate price and send directly to Ajay Thakur & Bittu Thakur.</p>
+      <div class="section-title-wrap text-center">
+        <span class="section-subtitle-tag"><i class="fa-brands fa-instagram"></i> LIVE FROM INSTAGRAM</span>
+        <h2 class="section-main-heading">Recent Posts & Reels From Studio</h2>
+        <p class="section-subtext">Follow <strong>@aureliancrownhairpatchstudio</strong> for daily transformations, client feedback, and hair care tutorials in Gurugram.</p>
+      </div>
+
+      <!-- Instagram Account Header Card -->
+      <div class="ig-profile-strip">
+        <div class="ig-profile-left">
+          <img src="assets/images/logo.png" alt="Aurelian Crown Studio Instagram" class="ig-logo-avatar">
+          <div>
+            <div class="ig-handle-line">
+              <h4>aureliancrownhairpatchstudio</h4>
+              <i class="fa-solid fa-circle-check text-blue"></i>
+            </div>
+            <p class="ig-bio-line">Natural-looking hair replacement solutions • Sector 3A Laxman Vihar Gurugram</p>
+          </div>
+        </div>
+        <div class="ig-stats-line">
+          <div class="ig-stat"><strong>32</strong> posts</div>
+          <div class="ig-stat"><strong>128</strong> followers</div>
+          <a href="https://www.instagram.com/aureliancrownhairpatchstudio" target="_blank" class="btn-ig-follow">
+            <i class="fa-brands fa-instagram"></i> Follow on Instagram
+          </a>
+        </div>
+      </div>
+
+      <!-- Instagram Feed Posts Grid (From uploaded real images) -->
+      <div class="ig-posts-grid">
+        <!-- Post 1: Real Salon Chair Transformation (1.58k views) -->
+        <div class="ig-post-card">
+          <div class="ig-media-wrap">
+            <img src="assets/images/client-after.png" alt="Client Haircut & Transformation at Aurelian Crown" class="ig-img">
+            <div class="reel-view-pill"><i class="fa-solid fa-play"></i> 1.58k views</div>
+          </div>
+          <div class="ig-post-footer">
+            <div class="ig-actions">
+              <i class="fa-solid fa-heart text-red"></i>
+              <i class="fa-regular fa-comment"></i>
+              <i class="fa-regular fa-paper-plane"></i>
+            </div>
+            <p class="ig-caption">
+              <strong>aureliancrownhairpatchstudio</strong> 100% natural hairline transformation done in 65 minutes! No pain, no surgery. #hairpatchgurgaon #hairtransplant #ajaythakur
+            </p>
+            <a href="https://www.instagram.com/aureliancrownhairpatchstudio" target="_blank" class="ig-view-link">View Reel on Instagram <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
         </div>
 
-        <div class="calc-box">
-          <!-- Step 1 -->
-          <div class="calc-group">
-            <label class="calc-label"><i class="fa-solid fa-circle-dot text-gold"></i> Step 1: Balding Area Level</label>
-            <div class="calc-options" id="calcAreaOptions">
-              <button type="button" class="calc-opt-btn active" data-cost="0" data-name="Front Hairline Receding">
-                <i class="fa-solid fa-user"></i>
-                <span>Front Hairline</span>
-              </button>
-              <button type="button" class="calc-opt-btn" data-cost="0" data-name="Crown / Top Area Thinning">
-                <i class="fa-solid fa-circle"></i>
-                <span>Crown / Top Area</span>
-              </button>
-              <button type="button" class="calc-opt-btn" data-cost="0" data-name="Full Top Baldness">
-                <i class="fa-solid fa-star-of-life"></i>
-                <span>Full Top Scalp</span>
-              </button>
-            </div>
+        <!-- Post 2: Hair Patch Bases in Stock (803 views) -->
+        <div class="ig-post-card">
+          <div class="ig-media-wrap">
+            <img src="assets/images/patch-bases.png" alt="In-stock bases: Bio-Skin, French Lace, Silk Top" class="ig-img">
+            <div class="reel-view-pill"><i class="fa-solid fa-eye"></i> 803 views</div>
           </div>
-
-          <!-- Step 2: System Tiers (From 3000 to 30000) -->
-          <div class="calc-group">
-            <label class="calc-label"><i class="fa-solid fa-circle-dot text-gold"></i> Step 2: Select Patch Package</label>
-            <div class="calc-options calc-grid-6" id="calcBaseOptions">
-              <button type="button" class="calc-opt-btn active" data-base-cost="3000" data-base-name="Standard Classic (₹3,000)">
-                <span>₹3,000</span>
-                <small>Standard Mono</small>
-              </button>
-              <button type="button" class="calc-opt-btn" data-base-cost="5000" data-base-name="Natural Mirage Lace (₹5,000)">
-                <span>₹5,000</span>
-                <small>Mirage Lace</small>
-              </button>
-              <button type="button" class="calc-opt-btn" data-base-cost="8000" data-base-name="Silk Top Fine Mono (₹8,000)">
-                <span>₹8,000</span>
-                <small>Silk Top</small>
-              </button>
-              <button type="button" class="calc-opt-btn" data-base-cost="10000" data-base-name="Ultra-Thin Bio-Skin (₹10,000)">
-                <span>₹10,000</span>
-                <small>Bio-Skin</small>
-              </button>
-              <button type="button" class="calc-opt-btn" data-base-cost="12000" data-base-name="Swiss HD Lace (₹12,000)">
-                <span>₹12,000</span>
-                <small>HD Lace</small>
-              </button>
-              <button type="button" class="calc-opt-btn gold-highlight-btn" data-base-cost="30000" data-base-name="Ultra Exclusive Royal Crown (₹30,000)">
-                <span class="gold-gradient-text">₹30,000</span>
-                <small>👑 Ultra Crown</small>
-              </button>
+          <div class="ig-post-footer">
+            <div class="ig-actions">
+              <i class="fa-solid fa-heart text-red"></i>
+              <i class="fa-regular fa-comment"></i>
+              <i class="fa-regular fa-paper-plane"></i>
             </div>
+            <p class="ig-caption">
+              <strong>aureliancrownhairpatchstudio</strong> All imported bases in stock: Ultra-thin poly skin, French lace & breathable mono. #hairpatchbases #gurugram
+            </p>
+            <a href="https://www.instagram.com/aureliancrownhairpatchstudio" target="_blank" class="ig-view-link">View Post on Instagram <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
           </div>
+        </div>
 
-          <!-- Step 3: Attachment Method -->
-          <div class="calc-group">
-            <label class="calc-label"><i class="fa-solid fa-circle-dot text-gold"></i> Step 3: Attachment Method</label>
-            <div class="calc-options" id="calcMethodOptions">
-              <button type="button" class="calc-opt-btn active" data-method-cost="0" data-method-name="Medical Grade Tape (Self Removable)">
-                <span>Medical Tape</span>
-                <small>Removable at home</small>
-              </button>
-              <button type="button" class="calc-opt-btn" data-method-cost="500" data-method-name="Waterproof Glue Bonding (4-5 Weeks Hold)">
-                <span>Waterproof Bonding</span>
-                <small>Stay fixed for 4-5 weeks</small>
-              </button>
-              <button type="button" class="calc-opt-btn" data-method-cost="400" data-method-name="Clip-on System (Zero Adhesive)">
-                <span>Clip-on System</span>
-                <small>Clips to side hair</small>
-              </button>
-            </div>
+        <!-- Post 3: Studio Entrance & Hair Confidence Standee (244 views) -->
+        <div class="ig-post-card">
+          <div class="ig-media-wrap">
+            <img src="assets/images/studio-gallery.png" alt="Friends Unisex Salon & Aurelian Crown Studio in Laxman Vihar" class="ig-img">
+            <div class="reel-view-pill"><i class="fa-solid fa-eye"></i> 244 views</div>
           </div>
+          <div class="ig-post-footer">
+            <div class="ig-actions">
+              <i class="fa-solid fa-heart text-red"></i>
+              <i class="fa-regular fa-comment"></i>
+              <i class="fa-regular fa-paper-plane"></i>
+            </div>
+            <p class="ig-caption">
+              <strong>aureliancrownhairpatchstudio</strong> Visit our studio in Sector 3A Laxman Vihar, Dhanwapur Road Gurugram. Direct call: 9958467830. #gurgaonhair
+            </p>
+            <a href="https://www.instagram.com/aureliancrownhairpatchstudio" target="_blank" class="ig-view-link">View Post on Instagram <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
 
-          <!-- Result Display -->
-          <div class="calc-result-box">
-            <div class="result-details">
-              <span class="result-title">Estimated Studio Price:</span>
-              <div class="result-price" id="calcResultPrice">₹3,000/-</div>
-              <p class="result-note" id="calcSummaryText">Front Hairline with Standard Classic (₹3,000) & Medical Grade Tape.</p>
+        <!-- Post 4: Ajay Thakur Styling Reel (216 views) -->
+        <div class="ig-post-card">
+          <div class="ig-media-wrap">
+            <img src="assets/images/ajay-thakur.png" alt="Ajay Thakur Styling Client Hair at Studio" class="ig-img">
+            <div class="reel-view-pill"><i class="fa-solid fa-play"></i> 216 views</div>
+          </div>
+          <div class="ig-post-footer">
+            <div class="ig-actions">
+              <i class="fa-solid fa-heart text-red"></i>
+              <i class="fa-regular fa-comment"></i>
+              <i class="fa-regular fa-paper-plane"></i>
             </div>
-            <div class="result-actions">
-              <button id="bookEstimateBtn" class="btn btn-gold btn-glow">
-                <i class="fa-brands fa-whatsapp"></i> Book This Setup with Ajay & Bittu
-              </button>
-              <a href="tel:+919958467830" class="btn btn-outline">
-                <i class="fa-solid fa-phone"></i> Call 9958467830
-              </a>
-            </div>
+            <p class="ig-caption">
+              <strong>aureliancrownhairpatchstudio</strong> Precision hair trimming & blending session with Ajay Thakur. Book your trial slot today! #hairstylist #hairtransformation
+            </p>
+            <a href="https://www.instagram.com/aureliancrownhairpatchstudio" target="_blank" class="ig-view-link">View Reel on Instagram <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Physical Studio Infrastructure & Tour Section -->
-  <section class="studio-tour-section" id="studio-tour">
+  <!-- Hair Patch Benefits Section -->
+  <section class="section-container" id="benefits">
     <div class="container">
-      <div class="section-header text-center">
-        <div class="sub-heading-pill">AUTHENTIC PHYSICAL STUDIO</div>
-        <h2 class="section-title">Visit Our Studio In <span class="gold-gradient-text">Sector 3A Laxman Vihar</span></h2>
-        <p class="section-subtitle">Real photos of our studio entrance, "Hair Confidence" outdoor board, and full wig collections in Gurugram.</p>
+      <div class="section-title-wrap text-center">
+        <span class="section-subtitle-tag">WHY AURELIAN CROWN</span>
+        <h2 class="section-main-heading">Clinical Benefits Over Surgery</h2>
+        <p class="section-subtext">Why men across Gurugram and Delhi NCR choose our customized hair systems over invasive hair transplant procedures.</p>
       </div>
 
-      <div class="studio-tour-grid">
-        <div class="studio-gallery-main">
-          <img src="assets/images/studio-gallery.png" alt="Aurelian Crown Studio Infrastructure, Entrance & Wigs in Sector 3A Laxman Vihar" class="studio-gallery-img">
-          <div class="gallery-badge-tag">
-            <i class="fa-solid fa-store text-gold"></i> Friends Unisex Salon Mobile / Aurelian Crown Studio Front
-          </div>
+      <div class="benefits-clean-grid">
+        <div class="b-card">
+          <div class="b-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+          <h4>100% Non-Surgical & Safe</h4>
+          <p>No incisions, no painful injections, zero bleeding, and zero surgical downtime. Walk out and continue your day immediately.</p>
         </div>
 
-        <div class="studio-highlights-list">
-          <div class="studio-feature-card">
-            <div class="sf-icon"><i class="fa-solid fa-door-open"></i></div>
+        <div class="b-card">
+          <div class="b-icon"><i class="fa-solid fa-clock"></i></div>
+          <h4>Instant 60-90 Minute Results</h4>
+          <p>Transplants take 9-12 months to show results and often have patchy success. Our systems deliver instant, dense, styled hair in a single visit.</p>
+        </div>
+
+        <div class="b-card">
+          <div class="b-icon"><i class="fa-solid fa-eye-slash"></i></div>
+          <h4>Undetectable Hairline</h4>
+          <p>Our micro-lace and 0.03mm bio-skin match your skin tone. Even under bright sunlight or close inspection, the hairline looks completely natural.</p>
+        </div>
+
+        <div class="b-card">
+          <div class="b-icon"><i class="fa-solid fa-wind"></i></div>
+          <h4>Breathable All-Weather Comfort</h4>
+          <p>Constructed with micro-perforations so your scalp breathes naturally. Engineered for Delhi NCR's heat, sweating, gym sessions, and helmets.</p>
+        </div>
+
+        <div class="b-card">
+          <div class="b-icon"><i class="fa-solid fa-swimming-pool"></i></div>
+          <h4>Swim, Shower & Ride Freely</h4>
+          <p>Our medical-grade waterproof adhesives hold securely through daily hair washes, swimming pool sessions, and motorbike rides.</p>
+        </div>
+
+        <div class="b-card">
+          <div class="b-icon"><i class="fa-solid fa-tags"></i></div>
+          <h4>Priced From ₹3,000 Upwards</h4>
+          <p>Save over ₹1,00,000 compared to hospital surgery. Clear, upfront prices from ₹3,000 to our ₹30,000 Ultra Exclusive bespoke crown.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Studio Tour & Infrastructure -->
+  <section class="section-container bg-warm-light" id="studio-tour">
+    <div class="container">
+      <div class="section-title-wrap text-center">
+        <span class="section-subtitle-tag">AUTHENTIC LOCATION</span>
+        <h2 class="section-main-heading">Our Studio In Sector 3A, Laxman Vihar</h2>
+        <p class="section-subtext">A clean, comfortable salon setting equipped with private styling rooms and an extensive in-stock inventory of hair systems.</p>
+      </div>
+
+      <div class="studio-presentation-grid">
+        <div class="studio-img-box">
+          <img src="assets/images/studio-gallery.png" alt="Aurelian Crown Hair Patch Studio in Laxman Vihar Gurugram" class="studio-main-photo">
+          <span class="photo-tag"><i class="fa-solid fa-location-dot"></i> Friends Unisex Salon / Aurelian Crown, Dhanwapur Rd</span>
+        </div>
+
+        <div class="studio-features-list">
+          <div class="feat-box">
+            <div class="feat-icon"><i class="fa-solid fa-door-closed"></i></div>
             <div>
               <h4>Private VIP Styling Cabins</h4>
-              <p>1-on-1 confidential consultations with Ajay Thakur and Bittu Thakur in air-conditioned comfort.</p>
+              <p>Confidential, 1-on-1 scalp analysis and styling sessions conducted in private cabins for your comfort.</p>
             </div>
           </div>
 
-          <div class="studio-feature-card">
-            <div class="sf-icon"><i class="fa-solid fa-layer-group"></i></div>
+          <div class="feat-box">
+            <div class="feat-icon"><i class="fa-solid fa-boxes-stacked"></i></div>
             <div>
-              <h4>Extensive In-Store Stock</h4>
-              <p>Hundreds of hair systems, front lace patches, mono bases, curly wigs, and full-cap wigs available immediately.</p>
+              <h4>Extensive Stock of Hair Systems</h4>
+              <p>Over 100+ hair patches in diverse colors, densities, textures, and base materials ready for immediate fitting.</p>
             </div>
           </div>
 
-          <div class="studio-feature-card">
-            <div class="sf-icon"><i class="fa-solid fa-map-pin"></i></div>
+          <div class="feat-box">
+            <div class="feat-icon"><i class="fa-solid fa-car"></i></div>
             <div>
-              <h4>Prime Laxman Vihar Location</h4>
-              <p>Dhanwapur Road, near Tyagi stores, opposite Sector 3A Phase II, easily accessible with ample parking.</p>
+              <h4>Easy Accessibility & Parking</h4>
+              <p>Situated on Dhanwapur Road opposite Sector 3A Phase II, near Tyagi stores, with easy roadside parking.</p>
             </div>
           </div>
 
-          <div class="studio-action-box">
-            <a href="tel:+919958467830" class="btn btn-gold"><i class="fa-solid fa-phone"></i> Call Ajay: 99584 67830</a>
-            <a href="tel:+917827867830" class="btn btn-outline"><i class="fa-solid fa-phone"></i> Call Bittu: 78278 67830</a>
+          <div class="studio-cta-duo">
+            <a href="tel:+919958467830" class="btn-primary-gold"><i class="fa-solid fa-phone"></i> Call Ajay: 99584 67830</a>
+            <a href="tel:+917827867830" class="btn-secondary-white"><i class="fa-solid fa-phone"></i> Call Bittu: 78278 67830</a>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Location & Studio Contact Section -->
-  <section class="location-section" id="location">
+  <!-- Location & Booking Form Section -->
+  <section class="section-container" id="contact">
     <div class="container">
-      <div class="location-grid">
-        <!-- Location Details & Contact Info -->
-        <div class="location-info-panel">
-          <div class="sub-heading-pill">VISIT OUR GURUGRAM STUDIO</div>
-          <h2 class="section-title">Aurelian Crown <br><span class="gold-gradient-text">Hair Patch Studio</span></h2>
+      <div class="contact-split-grid">
+        <!-- Contact Information Panel -->
+        <div class="contact-info-panel">
+          <span class="section-subtitle-tag">VISIT OUR STUDIO</span>
+          <h2 class="contact-heading">Plan Your Visit to <br>Aurelian Crown</h2>
           
-          <div class="owner-pill">
-            <i class="fa-solid fa-users text-gold"></i>
+          <div class="owner-tag-pill">
+            <i class="fa-solid fa-user-group text-gold"></i>
             <span>Owners: <strong>Ajay Thakur</strong> & <strong>Bittu Thakur</strong></span>
           </div>
 
-          <div class="contact-card-list">
-            <!-- Address Item -->
-            <div class="contact-info-card">
-              <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
-              <div class="info-details">
-                <h4>Studio Address</h4>
+          <div class="info-items-stack">
+            <div class="info-block">
+              <div class="i-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div>
+                <h4>Address</h4>
                 <p>
-                  <strong>Sector 3A, Laxman Vihar</strong><br>
-                  Friends Unisex Salon Mobile, Dhanwapur Rd, near Tyagi stores, Sector 3A, Laxman Vihar / Galli Number 4, opposite Sector Phase II, Gurugram, Haryana 122006
+                  Friends Unisex Salon Mobile, 67830, Dhanwapur Rd, near Tyagi stores, Sector 3A, Laxman Vihar / Galli Number 4, opposite Sector Phase II, Gurugram, Haryana 122006, India.
                 </p>
-                <a href="https://maps.google.com/?q=Aurelian+Crown+Hair+patch+studio+Sector+3A+Laxman+Vihar+Gurugram" target="_blank" class="directions-btn">
-                  <i class="fa-solid fa-diamond-turn-right"></i> Open in Google Maps
+                <a href="https://maps.google.com/?q=Aurelian+Crown+Hair+patch+studio+Sector+3A+Laxman+Vihar+Gurugram" target="_blank" class="directions-link">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> Open in Google Maps
                 </a>
               </div>
             </div>
 
-            <!-- Phone Item 1 -->
-            <div class="contact-info-card">
-              <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
-              <div class="info-details">
-                <h4>Ajay Thakur (Primary Call / WhatsApp)</h4>
-                <p class="phone-number"><strong>+91 99584 67830</strong></p>
-                <div class="btn-group-mini">
-                  <a href="tel:+919958467830" class="btn btn-xs btn-gold"><i class="fa-solid fa-phone"></i> Call Ajay</a>
-                  <a href="https://wa.me/919958467830?text=Hello%20Ajay%20Thakur,%20I%20want%20to%20visit%20Aurelian%20Crown%20Studio." target="_blank" class="btn btn-xs btn-outline"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
-                </div>
+            <div class="info-block">
+              <div class="i-icon"><i class="fa-solid fa-phone"></i></div>
+              <div>
+                <h4>Direct Phone Numbers</h4>
+                <p>
+                  <strong>Ajay Thakur:</strong> <a href="tel:+919958467830">+91 99584 67830</a><br>
+                  <strong>Bittu Thakur:</strong> <a href="tel:+917827867830">+91 78278 67830</a>
+                </p>
               </div>
             </div>
 
-            <!-- Phone Item 2 -->
-            <div class="contact-info-card">
-              <div class="info-icon"><i class="fa-solid fa-phone-volume"></i></div>
-              <div class="info-details">
-                <h4>Bittu Thakur (Secondary Call / WhatsApp)</h4>
-                <p class="phone-number"><strong>+91 78278 67830</strong></p>
-                <div class="btn-group-mini">
-                  <a href="tel:+917827867830" class="btn btn-xs btn-gold"><i class="fa-solid fa-phone"></i> Call Bittu</a>
-                  <a href="https://wa.me/917827867830?text=Hello%20Bittu%20Thakur,%20I%20want%20to%20visit%20Aurelian%20Crown%20Studio." target="_blank" class="btn btn-xs btn-outline"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
-                </div>
+            <div class="info-block">
+              <div class="i-icon"><i class="fa-solid fa-clock"></i></div>
+              <div>
+                <h4>Opening Hours</h4>
+                <p>Monday – Sunday: 10:00 AM – 8:30 PM (Open 7 Days)</p>
               </div>
             </div>
 
-            <!-- Social Media Channels -->
-            <div class="contact-info-card">
-              <div class="info-icon"><i class="fa-solid fa-share-nodes"></i></div>
-              <div class="info-details">
-                <h4>Official Social Channels</h4>
-                <div class="social-btn-row">
-                  <a href="https://www.instagram.com/aureliancrownhairpatchstudio" target="_blank" class="social-square ig" title="Instagram">
-                    <i class="fa-brands fa-instagram"></i>
-                    <span>@aureliancrownhairpatchstudio</span>
+            <div class="info-block">
+              <div class="i-icon"><i class="fa-solid fa-share-nodes"></i></div>
+              <div>
+                <h4>Social Channels</h4>
+                <div class="social-pills-row">
+                  <a href="https://www.instagram.com/aureliancrownhairpatchstudio" target="_blank" class="social-pill">
+                    <i class="fa-brands fa-instagram"></i> Instagram
                   </a>
-                  <a href="https://www.facebook.com" target="_blank" class="social-square fb" title="Facebook">
-                    <i class="fa-brands fa-facebook-f"></i>
-                    <span>Facebook</span>
+                  <a href="https://www.facebook.com" target="_blank" class="social-pill">
+                    <i class="fa-brands fa-facebook-f"></i> Facebook
                   </a>
-                  <a href="https://wa.me/919958467830" target="_blank" class="social-square wa" title="WhatsApp">
-                    <i class="fa-brands fa-whatsapp"></i>
-                    <span>WhatsApp</span>
+                  <a href="https://wa.me/919958467830" target="_blank" class="social-pill">
+                    <i class="fa-brands fa-whatsapp"></i> WhatsApp
                   </a>
                 </div>
               </div>
@@ -889,66 +755,60 @@
           </div>
         </div>
 
-        <!-- Right Side: Interactive Booking Form & Map Preview -->
-        <div class="booking-form-panel" id="contact">
-          <div class="form-header">
-            <h3>Book Your Free Scalp Consultation</h3>
-            <p>Send an appointment request directly to Ajay Thakur & Bittu Thakur on WhatsApp.</p>
+        <!-- Appointment Form -->
+        <div class="booking-form-box">
+          <div class="form-title-wrap">
+            <h3>Schedule a Free Consultation</h3>
+            <p>Fill out the form below to connect directly with Ajay Thakur & Bittu Thakur on WhatsApp.</p>
           </div>
 
-          <form id="consultationForm" class="consult-form">
-            <div class="form-group">
-              <label for="userName"><i class="fa-solid fa-user"></i> Your Full Name</label>
-              <input type="text" id="userName" placeholder="e.g. Rahul Sharma" required>
+          <form id="consultForm" class="clean-form">
+            <div class="form-field">
+              <label for="cName">Your Name</label>
+              <input type="text" id="cName" placeholder="e.g. Rahul Sharma" required>
             </div>
 
-            <div class="form-group">
-              <label for="userPhone"><i class="fa-solid fa-phone"></i> Mobile Phone Number</label>
-              <input type="tel" id="userPhone" placeholder="e.g. 98765 43210" required>
+            <div class="form-field">
+              <label for="cPhone">Mobile Phone Number</label>
+              <input type="tel" id="cPhone" placeholder="e.g. 98765 43210" required>
             </div>
 
-            <div class="form-group">
-              <label for="hairLossStage"><i class="fa-solid fa-head-side-virus"></i> Hair Patch Budget / Stage</label>
-              <select id="hairLossStage">
+            <div class="form-field">
+              <label for="cBudget">Preferred Package Tier</label>
+              <select id="cBudget">
                 <option value="₹3,000 Standard Classic Patch">₹3,000 Standard Classic Patch</option>
                 <option value="₹5,000 Natural Mirage Lace Patch">₹5,000 Natural Mirage Lace Patch</option>
-                <option value="₹8,000 Silk Top Fine Mono Patch">₹8,000 Silk Top Fine Mono Patch</option>
+                <option value="₹8,000 Silk Top Fine Mono (Recommended)" selected>₹8,000 Silk Top Fine Mono (Recommended)</option>
                 <option value="₹10,000 Ultra-Thin Bio-Skin Patch">₹10,000 Ultra-Thin Bio-Skin Patch</option>
-                <option value="₹12,000 French/Swiss HD Lace Patch">₹12,000 French/Swiss HD Lace Patch</option>
-                <option value="₹30,000 Ultra Exclusive Premium Patch">₹30,000 Ultra Exclusive Premium Patch</option>
-                <option value="Maintenance / Re-bonding Existing Patch">Maintenance / Re-bonding Existing Patch</option>
+                <option value="₹12,000 Swiss HD Lace Patch">₹12,000 Swiss HD Lace Patch</option>
+                <option value="₹30,000 Ultra Exclusive Premium Royal Crown">₹30,000 Ultra Exclusive Premium Royal Crown</option>
+                <option value="Maintenance / Re-Bonding Existing Patch">Maintenance / Re-Bonding Existing Patch</option>
               </select>
             </div>
 
-            <div class="form-group">
-              <label for="preferredDate"><i class="fa-solid fa-calendar"></i> Preferred Appointment Date</label>
-              <input type="date" id="preferredDate">
+            <div class="form-field">
+              <label for="cDate">Preferred Consultation Date</label>
+              <input type="date" id="cDate">
             </div>
 
-            <div class="form-group">
-              <label for="userMessage"><i class="fa-solid fa-comment-dots"></i> Questions or Notes</label>
-              <textarea id="userMessage" rows="3" placeholder="Tell Ajay & Bittu about your preferred hairstyle or queries..."></textarea>
+            <div class="form-field">
+              <label for="cNotes">Questions / Style Preference</label>
+              <textarea id="cNotes" rows="3" placeholder="Tell Ajay & Bittu about your hair loss pattern or questions..."></textarea>
             </div>
 
-            <button type="submit" class="btn btn-gold btn-block btn-glow">
-              <i class="fa-brands fa-whatsapp"></i> Send Booking to WhatsApp
+            <button type="submit" class="btn-primary-gold btn-block">
+              <i class="fa-brands fa-whatsapp"></i> Send Appointment via WhatsApp
             </button>
-            <p class="form-disclaimer">
-              <i class="fa-solid fa-lock"></i> 100% Confidential. Sent directly to Ajay Thakur & Bittu Thakur.
-            </p>
+            <span class="privacy-note"><i class="fa-solid fa-lock"></i> 100% Confidential. Directly sent to Ajay Thakur & Bittu Thakur.</span>
           </form>
 
-          <!-- Studio Live Map -->
-          <div class="studio-map-embed">
-            <div class="map-header">
-              <span><i class="fa-solid fa-location-arrow text-gold"></i> Sector 3A Laxman Vihar, Gurugram</span>
-              <a href="https://maps.google.com/?q=Sector+3A+Laxman+Vihar+Gurugram+Aurelian+Crown+Hair+Patch+Studio" target="_blank" class="map-link">Google Maps</a>
-            </div>
+          <!-- Google Maps Embed -->
+          <div class="maps-box">
             <iframe 
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14030.147348421034!2d76.9950!3d28.4720!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d19c35529f795%3A0x673994bb40e3d93!2sLaxman%20Vihar%2C%20Sector%203A%2C%20Gurugram%2C%20Haryana%20122006!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
               width="100%" 
-              height="200" 
-              style="border:0; border-radius: 12px;" 
+              height="180" 
+              style="border:0; border-radius: 10px;" 
               allowfullscreen="" 
               loading="lazy" 
               referrerpolicy="no-referrer-when-downgrade">
@@ -959,19 +819,19 @@
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="site-footer">
-    <div class="container footer-content">
-      <div class="footer-col brand-col">
-        <div class="footer-logo">
-          <img src="assets/images/logo.png" alt="Aurelian Crown Hair Patch Studio" class="footer-logo-img">
+  <!-- Clean Footer -->
+  <footer class="clean-footer">
+    <div class="container footer-grid">
+      <div class="footer-about">
+        <div class="footer-brand">
+          <img src="assets/images/logo.png" alt="Aurelian Crown" class="footer-logo">
           <div>
-            <h3>AURELIAN CROWN</h3>
+            <h4>AURELIAN CROWN</h4>
             <span>HAIR PATCH STUDIO</span>
           </div>
         </div>
-        <p class="footer-tagline">
-          Premium Non-Surgical Hair Replacement Studio in Gurugram owned by <strong>Ajay Thakur</strong> & <strong>Bittu Thakur</strong>. Restoring style and confidence with systems from ₹3,000 to ₹30,000.
+        <p>
+          Boutique non-surgical hair replacement studio in Sector 3A Laxman Vihar, Gurugram. Founded and personally managed by <strong>Ajay Thakur</strong> & <strong>Bittu Thakur</strong>.
         </p>
         <div class="footer-social-links">
           <a href="https://www.instagram.com/aureliancrownhairpatchstudio" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
@@ -982,62 +842,47 @@
       </div>
 
       <div class="footer-col">
-        <h4 class="footer-heading">Quick Links</h4>
-        <ul class="footer-links">
-          <li><a href="#about">Owners: Ajay & Bittu Thakur</a></li>
-          <li><a href="#transformations">Real Client Transformations</a></li>
-          <li><a href="#bases">Hair Patch Bases</a></li>
-          <li><a href="#pricing">Pricing Packages (₹3K-₹30K)</a></li>
+        <h5>Quick Links</h5>
+        <ul class="footer-menu">
+          <li><a href="#about">About Ajay & Bittu Thakur</a></li>
+          <li><a href="#transformations">Real Client Results</a></li>
+          <li><a href="#pricing">Pricing (₹3,000 – ₹30,000)</a></li>
+          <li><a href="#instagram-feed">Instagram Posts</a></li>
           <li><a href="#studio-tour">Studio Tour</a></li>
-          <li><a href="#location">Location & Contact</a></li>
+          <li><a href="#contact">Location & Contact</a></li>
         </ul>
       </div>
 
       <div class="footer-col">
-        <h4 class="footer-heading">Studio Contacts</h4>
-        <ul class="footer-contact-list">
-          <li>
-            <i class="fa-solid fa-users text-gold"></i>
-            <span>Owners: <strong>Ajay Thakur</strong> & <strong>Bittu Thakur</strong></span>
-          </li>
-          <li>
-            <i class="fa-solid fa-phone text-gold"></i>
-            <div>
-              <a href="tel:+919958467830">+91 99584 67830 (Ajay)</a><br>
-              <a href="tel:+917827867830">+91 78278 67830 (Bittu)</a>
-            </div>
-          </li>
-          <li>
-            <i class="fa-solid fa-location-dot text-gold"></i>
-            <span>Sector 3A, Laxman Vihar, Dhanwapur Rd, Gurugram, Haryana 122006</span>
-          </li>
-          <li>
-            <i class="fa-solid fa-clock text-gold"></i>
-            <span>Open: 10:00 AM – 8:30 PM (All 7 Days)</span>
-          </li>
+        <h5>Studio Contact</h5>
+        <ul class="footer-contact-info">
+          <li><strong>Ajay Thakur:</strong> <a href="tel:+919958467830">+91 99584 67830</a></li>
+          <li><strong>Bittu Thakur:</strong> <a href="tel:+917827867830">+91 78278 67830</a></li>
+          <li>Sector 3A, Laxman Vihar, Dhanwapur Rd, Gurugram, Haryana 122006</li>
+          <li>Open 7 Days • 10:00 AM – 8:30 PM</li>
         </ul>
       </div>
     </div>
 
-    <div class="footer-bottom">
+    <div class="footer-bottom-bar">
       <div class="container footer-bottom-flex">
-        <p>© 2026 Aurelian Crown Hair Patch Studio. Owned by Ajay Thakur & Bittu Thakur. All rights reserved.</p>
-        <p class="credit-tag">Sector 3A Laxman Vihar, Gurugram</p>
+        <span>© 2026 Aurelian Crown Hair Patch Studio. Owned by Ajay Thakur & Bittu Thakur. All rights reserved.</span>
+        <span>Sector 3A, Laxman Vihar, Gurugram, India</span>
       </div>
     </div>
   </footer>
 
   <!-- Sticky Floating Mobile Quick Action Bar -->
-  <div class="mobile-sticky-action-bar">
-    <a href="tel:+919958467830" class="mob-action-btn mob-call">
+  <div class="mobile-sticky-bar">
+    <a href="tel:+919958467830" class="mob-btn mob-call-ajay">
       <i class="fa-solid fa-phone"></i>
       <span>Ajay (99584)</span>
     </a>
-    <a href="tel:+917827867830" class="mob-action-btn mob-call-sec">
-      <i class="fa-solid fa-phone-volume"></i>
+    <a href="tel:+917827867830" class="mob-btn mob-call-bittu">
+      <i class="fa-solid fa-phone"></i>
       <span>Bittu (78278)</span>
     </a>
-    <a href="https://wa.me/919958467830?text=Hi%20Ajay%20Thakur%20and%20Bittu%20Thakur,%20I%20am%20interested%20in%20a%20Hair%20Patch%20at%20Aurelian%20Crown%20Studio." target="_blank" class="mob-action-btn mob-wa">
+    <a href="https://wa.me/919958467830?text=Hello%20Ajay%20Thakur%20and%20Bittu%20Thakur,%20I%20am%20interested%20in%20a%20Hair%20Patch%20consultation." target="_blank" class="mob-btn mob-wa">
       <i class="fa-brands fa-whatsapp"></i>
       <span>WhatsApp</span>
     </a>
