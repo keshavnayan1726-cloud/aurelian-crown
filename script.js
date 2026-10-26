@@ -104,8 +104,10 @@ function initComparisonSlider() {
   if (!container || !overlayClip || !divider) return;
 
   function setDimensions() {
-    if (imgOverlay) {
+    if (imgOverlay && container) {
       imgOverlay.style.width = `${container.clientWidth}px`;
+      imgOverlay.style.height = `${container.clientHeight}px`;
+      imgOverlay.style.objectFit = 'cover';
     }
   }
   setDimensions();
