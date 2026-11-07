@@ -57,7 +57,8 @@
   <link rel="stylesheet" href="style.css">
 
   <!-- Three.js CDN for Subtle Ambient Visuals -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <!-- Three.js deferred for mobile Core Web Vitals -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
 
   <!-- Google Schema.org Structured Data (JSON-LD) for Local Business & Rich Search Snippets -->
   <script type="application/ld+json">
@@ -217,6 +218,8 @@
     ]
   }
   </script>
+  <!-- Google Search Console & Analytics Ready -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script> -->
 </head>
 <body class="light-theme">
 
@@ -257,13 +260,23 @@
       </a>
 
       <nav class="nav-menu" id="navMenu">
-        <a href="#about" class="nav-link">About Founders</a>
+        <a href="index.html" class="nav-link active">Home</a>
+        <div class="nav-dropdown">
+          <a href="hair-patch-services.html" class="nav-link dropdown-toggle">
+            Services <i class="fa-solid fa-chevron-down"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="hair-patch-services.html" class="dropdown-item">All Hair Patch Systems</a>
+            <a href="non-surgical-hair-replacement.html" class="dropdown-item">Non-Surgical Replacement</a>
+            <a href="hair-patch-maintenance.html" class="dropdown-item">Care & Maintenance</a>
+            <a href="hair-patch-vs-hair-transplant.html" class="dropdown-item">Patch vs Transplant</a>
+          </div>
+        </div>
+        <a href="pricing.html" class="nav-link">Pricing (₹3K–₹30K)</a>
         <a href="#transformations" class="nav-link">Real Results</a>
-        <a href="#benefits" class="nav-link">Why Us?</a>
-        <a href="#pricing" class="nav-link">Pricing (₹3K – ₹30K)</a>
-        <a href="#instagram-feed" class="nav-link">Instagram Posts</a>
-        <a href="#studio-tour" class="nav-link">Studio Tour</a>
-        <a href="#contact" class="nav-link nav-btn-consult">Book Free Trial</a>
+        <a href="about.html" class="nav-link">About Founders</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="consultation.html" class="nav-link nav-btn-consult">Book Free Trial</a>
       </nav>
 
       <div class="header-cta-block">
@@ -1368,12 +1381,15 @@
       <div class="footer-col">
         <h5>Quick Links</h5>
         <ul class="footer-menu">
-          <li><a href="#about">About Ajay & Bittu Thakur</a></li>
-          <li><a href="#transformations">Real Client Results</a></li>
-          <li><a href="#pricing">Pricing (₹3,000 – ₹30,000)</a></li>
-          <li><a href="#instagram-feed">Instagram Posts</a></li>
-          <li><a href="#studio-tour">Studio Tour</a></li>
-          <li><a href="#contact">Location & Contact</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="hair-patch-services.html">Hair Patch Services</a></li>
+          <li><a href="non-surgical-hair-replacement.html">Non-Surgical Replacement</a></li>
+          <li><a href="pricing.html">Pricing Guide (₹3K–₹30K)</a></li>
+          <li><a href="hair-patch-maintenance.html">Care & Maintenance</a></li>
+          <li><a href="hair-patch-vs-hair-transplant.html">Patch vs Transplant</a></li>
+          <li><a href="about.html">About Founders</a></li>
+          <li><a href="contact.html">Studio Location & Contact</a></li>
+          <li><a href="consultation.html">Book Free Trial</a></li>
         </ul>
       </div>
 
